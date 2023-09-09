@@ -16,8 +16,6 @@ $(function(){
 
         if(scrollTop > 500){
             $('.back_to_top').show(500);
-            $('.menu_wrapper').removeClass('open_menu');
-        $('.menu_overlay').hide();
         }else{
             $('.back_to_top').hide(500);
         }
